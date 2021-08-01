@@ -1,0 +1,25 @@
+
+.about {
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .about .form-field {
+    font-weight: bold;
+  }
+  
+  /* Later merge .cover img into this */
+  .about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  section div p{
+    margin:1rem;
+  }
+  @media screen and (max-width: 768px) {
+    .about{
+        display: block;
+    }
+}

@@ -1,0 +1,55 @@
+.cover {
+    padding: 16px 32px;
+    background: #f7f8f9;
+    display: flex;
+  }
+  .cover img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cover h2 {
+    position: relative;
+  }
+  div h2{
+      font-size: xx-large;
+      font-weight: 700;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  div p{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .cover button {
+    background: #f6e05e;
+    border-radius: 25px;
+    padding: 10px 48px;
+    margin-top: 20px;
+    font-size: 0.9375rem;
+    font-weight: bold;
+    border-width: 0;
+    cursor: pointer;
+  }
+  
+  .cover button:hover {
+    background: #f7e576;
+    border-color: #f7e576;
+  }
+  input{
+    height: 2rem;
+  }
+  #form form{
+    justify-content: center;
+    margin: 2rem;
+    height: auto;
+    width: 80%;
+  }
+  #form label{
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 768px) {
+      .cover{
+          display: block;
+      }
+  }
